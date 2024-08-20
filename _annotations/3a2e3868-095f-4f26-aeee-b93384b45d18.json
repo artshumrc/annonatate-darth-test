@@ -1,0 +1,44 @@
+---
+canvas: "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0"
+order: 1
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>A first annotation</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=1302,1507,2870,3238"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1722.0222,1980.81169c264.98041,-271.92049 638.77822,-474.41047 1014.38744,-474.16855v0v0c375.60922,0.24192 702.82786,189.66803 1014.38744,474.16855c311.55958,284.50051 432.65884,718.02437 420.17304,1144.74413c-12.4858,426.71976 -158.55667,846.63542 -420.17304,1144.74413c-261.61636,298.10871 -638.77822,474.41047 -1014.38744,474.16855c-375.60922,-0.24192 -749.6658,-177.02753 -1014.38744,-474.16855c-264.72164,-297.14102 -420.10834,-714.63744 -420.17304,-1144.74413c-0.06469,-430.10669 155.19262,-872.82364 420.17304,-1144.74413z\"  id=\"ellipse_40d23200-cbd6-40f8-a413-58416a9bc846\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://dnoneill.github.io/annotate/manifests/parismap.json",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2024-08-20T16:18:29.506Z",
+    "@id": "3a2e3868-095f-4f26-aeee-b93384b45d18.json",
+    "oa:annotatedBy": [
+        "Cole Crawford"
+    ]
+}
